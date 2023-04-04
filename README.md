@@ -38,7 +38,7 @@
 
     - A primeira `search_by_word("programa", queue_instance)` retorna as informações obtidas de forma mais completa como exemplificado abaixo:
 
-    ```Python
+    ```JSON
     [
       {
         "palavra": "programa", 
@@ -59,7 +59,7 @@
 
     - Já a segunda, `exists_word("programa", queue_instance)`, retorna um relatório um pouco menos detalhado.
     
-    ```Python
+    ```JSON
     [
       {
         "palavra": "programa",
