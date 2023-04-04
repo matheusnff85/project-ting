@@ -1,6 +1,6 @@
-# Project TING (Trybe is not google)
+# Project TING (Trybe is not Google)
 
-- O Projeto foi implementado visando simular um algoritimo de indexação de documentos semelhante ao utilizado pelo Google, o programa analisa e identifica ocorrências de termo em arquivos TXT, além de alguns testes para as funções e classes desenvolvidas.
+- O Projeto foi implementado visando simular um algorítimo de indexação de documentos semelhante ao utilizado pelo Google, o programa analisa e identifica ocorrências de termo em arquivos TXT, além de alguns testes para as funções e classes desenvolvidas.
 
 - O Projeto desenvolvido se divide em dois módulos:
   - **Módulo de gerenciamento de arquivos** que permite anexar arquivos de texto (formato TXT).
@@ -34,9 +34,10 @@
 
   - `python3 -m ting_word_searches.word_search`
 
-  5. Com isso duas funções são habilitadas para uso a `search_by_word` e a `exists_word`, as duas esperam dois parâmetros, o primeiro sendo a **palavra a ser buscada** e o segundo a **instância da classe Queue**.
+  - Com isso duas funções são habilitadas para uso, a `search_by_word` e a `exists_word`, as duas esperam dois parâmetros, o primeiro sendo a **palavra a ser buscada** e o segundo a **instância da classe Queue**.
 
     - A primeira `search_by_word("programa", queue_instance)` retorna as informações obtidas de forma mais completa como exemplificado abaixo:
+
     ```Python
     [
       {
@@ -56,7 +57,8 @@
     ]
     ```
 
-    - Já a segunda `exists_word("programa", queue_instance)`, retorna um relatório um pouco menos detalhado.
+    - Já a segunda, `exists_word("programa", queue_instance)`, retorna um relatório um pouco menos detalhado.
+    
     ```Python
     [
       {
